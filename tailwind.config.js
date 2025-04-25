@@ -8,7 +8,8 @@ module.exports = {
           fontFamily: {
         clash: ['ClashDisplay', 'sans-serif'],
         switzer: ['Switzer', 'sans-serif'],
-        stardom: ['Stardom', 'mono']
+        stardom: ['Stardom', 'mono'],
+        gambarino: ['Gambarino', 'mono']
       },
     },
   },

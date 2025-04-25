@@ -24,3 +24,10 @@ body {
   font-weight: 100; /* Light weight */
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Gambarino';
+  src: url('/fonts/Gambarino-Regular.woff2') format('woff2');
+  font-weight: 100; /* Light weight */
+  font-style: normal;
+}

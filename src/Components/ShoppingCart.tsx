@@ -1,4 +1,5 @@
 import { useState } from './react'
+import Card from './Card.tsx'
 
 export default function ShoppingCart () {
 	// Define List of Current Cart State
@@ -7,12 +8,6 @@ export default function ShoppingCart () {
 	// Generate REACT Cart with 'Product' Component
 	
 	// Build and Export All
-	return (
-		<>
-			<div className="rounded-xl border">
-				<h2>shopping cart</h2>
-			</div>
-		</>
-	)
+	return <Card title="Shopping Cart" font="font-gambarino" />
 }
 
