@@ -4,7 +4,13 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+          fontFamily: {
+        clash: ['ClashDisplay', 'sans-serif'],
+        switzer: ['Switzer', 'sans-serif'],
+        stardom: ['Stardom', 'mono']
+      },
+    },
   },
   plugins: [],
 }

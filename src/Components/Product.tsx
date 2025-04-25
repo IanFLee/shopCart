@@ -1,5 +1,5 @@
 export default Product = () => (
 	<>
-		<h6>{props.product.productName}</h6>
+		<h6>product: {props.product.productName}</h6>
 	</>
 )

@@ -1,1 +1,26 @@
 @tailwind base; @tailwind components; @tailwind utilities;
+
+body {
+	@apply bg-gray-50
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Light.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/fonts/Switzer-Thin.woff2') format('woff2');
+  font-weight: 100; /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stardom';
+  src: url('/fonts/Stardom-Regular.woff2') format('woff2');
+  font-weight: 100; /* Light weight */
+  font-style: normal;
+}

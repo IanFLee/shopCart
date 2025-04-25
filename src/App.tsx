@@ -7,11 +7,27 @@ import ShoppingCart from './Components/ShoppingCart.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
+  
+	    const clashD = {
+    fontFamily: 'ClashDisplay, mono'
+  };
+  
+    // Test font loading immediately
+  const switzer = {
+    fontFamily: 'Switzer, sans-serif'
+  };
+  
+  const stardom = {
+    fontFamily: 'Stardom, mono'
+  };
+  
 
   return (
     <>
+      <div className="grid grid-cols-[2fr_1fr] gap-4 h-64">
       <ProductShelf />
       <ShoppingCart />
+      </div>
     </>
   )
 }
