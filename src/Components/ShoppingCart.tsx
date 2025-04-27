@@ -8,6 +8,6 @@ export default function ShoppingCart () {
 	// Generate REACT Cart with 'Product' Component
 	
 	// Build and Export All
-	return <Card title="Shopping Cart" font="font-gambarino" />
+	return <Card title="My Shopping Cart" font="font-gambarino" />
 }
 

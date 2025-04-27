@@ -8,5 +8,5 @@ export default function ProductShelf () {
 
 	
 	// Build and Export All
-	return <Card title="Product Shelf" font="font-switzer" />
+	return <Card title="Aisle Twelve - Groceries" font="font-switzer" />
 }
