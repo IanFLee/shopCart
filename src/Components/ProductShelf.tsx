@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Card from './Card.tsx'
 
 	// Fetch API Data
@@ -19,14 +20,16 @@ import Card from './Card.tsx'
 		'price': '100'
 	}
 	]
+
 	
 	// Generate List of 'Product' Components
-	const ProductList = ( { products } ) => (
+	const ProductList = ( { products, addToCart } ) => (
 		<ul className="grid grid-cols-1 gap-4">
 			{products.map( (product) => (
 				<li key={product.id} className="border-2 rounded-lg p-4">
 					<h3 className="text-lg font-medium"> { product.name } </h3>
 					<p className="text-gray-600"> { product.price } </p>
+					<button className="bg-blue-500 text-white rounded" onClick={()=>addToCart(product)}>Add to Cart</button>
 				</li>
 			) ) }
 		</ul>
